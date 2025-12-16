@@ -1,5 +1,4 @@
 # Aristotelian Taxonomy Formalization
-# Aristotle Biological Ontology
 
 This repository contains a formal and computational reconstruction of Aristotle’s biological taxonomy, based on his main zoological works:
 
