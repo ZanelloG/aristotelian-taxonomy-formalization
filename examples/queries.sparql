@@ -1,28 +1,32 @@
-SELECT DISTINCT ?animale ?asse
+
+PREFIX : <http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#>
+SELECT ?differenza ?asse
+WHERE {
+  :Cervo :CaratterizzatoDa ?differenza .
+  ?differenza :AppartieneAsse ?asse .}
+
+
+
+
+SELECT ?animale ?parte ?funzione
 WHERE {
   ?animale a :Animale ;
-           :CaratterizzatoDa ?diff .
-  ?diff :AppartieneAsse ?asse .
-}
-ORDER BY ?animale
+           :HaParteOsservata ?parte .
+  ?parte :HaFunzione ?funzione .}
 
 
 
 
-SELECT ?animale ?differenza
+SELECT ?asse ?differenza
 WHERE {
-  ?animale a :Animale ;
-           :CaratterizzatoDa ?differenza .
-}
-ORDER BY ?animale
-
+  :Cetaceo :CaratterizzatoDa ?differenza .
+  ?differenza :AppartieneAsse ?asse .}
 
 
 
 SELECT ?differenza (COUNT(?animale) AS ?numeroAnimali)
 WHERE {
-  ?animale a :Animale ;
-           :CaratterizzatoDa ?differenza .
-}
+  ?animale a ari:Animale ;
+           ari:CaratterizzatoDa ?differenza .}
 GROUP BY ?differenza
 
