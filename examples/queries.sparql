@@ -1,1 +1,28 @@
+SELECT DISTINCT ?animale ?asse
+WHERE {
+  ?animale a :Animale ;
+           :CaratterizzatoDa ?diff .
+  ?diff :AppartieneAsse ?asse .
+}
+ORDER BY ?animale
+
+
+
+
+SELECT ?animale ?differenza
+WHERE {
+  ?animale a :Animale ;
+           :CaratterizzatoDa ?differenza .
+}
+ORDER BY ?animale
+
+
+
+
+SELECT ?differenza (COUNT(?animale) AS ?numeroAnimali)
+WHERE {
+  ?animale a :Animale ;
+           :CaratterizzatoDa ?differenza .
+}
+GROUP BY ?differenza
 
