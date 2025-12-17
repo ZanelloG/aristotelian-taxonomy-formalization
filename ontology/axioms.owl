@@ -1,1 +1,1268 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aristotelian-tax-form/axioms"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aristotelian-tax-form/axioms">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sostegno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#GenerazioneSpontanea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Metamorfosi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polipodi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Percezione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAcquatico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAereo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AssenzaOrganiRespiratori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FreddoInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sperma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Copulazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoDiffuso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Quadrupedi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaldoInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovovivipari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Sanguigno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAerea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Fecondazione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#PrincipioVitale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazioneBranchiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProduzioneUova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAcquatica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoGraduale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoDiretto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FormazioneEmbrione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Movimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Raffreddamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Respirazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Nutrizione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Sanguigno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Sanguigno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AssenzaOrganiRespiratori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AssenzaOrganiRespiratori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaldoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaldoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Copulazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Copulazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Fecondazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Fecondazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FormazioneEmbrione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FormazioneEmbrione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FreddoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FreddoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#GenerazioneSpontanea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#GenerazioneSpontanea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Metamorfosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Metamorfosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Movimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Movimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Nutrizione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Nutrizione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovovivipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovovivipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Percezione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Percezione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polipodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polipodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#PrincipioVitale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#PrincipioVitale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProduzioneUova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProduzioneUova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Quadrupedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Quadrupedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Raffreddamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Raffreddamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAcquatico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAcquatico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAereo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoAereo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoDiffuso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoDiffuso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAcquatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAcquatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAerea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAerea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazioneBranchiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazioneBranchiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sostegno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sostegno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sperma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sperma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sperma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoDiretto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoDiretto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoGraduale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoGraduale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteNonOmogenea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CriteriTassonomici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#DatiEmpirici"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Movimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AssenzaOrganiRespiratori"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaldoInterno"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Raffreddamento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Quadrupedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Copulazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cetaceo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Sanguigno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ali"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Corvo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#PrincipioVitale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#FreddoInterno"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#GenerazioneSpontanea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Metamorfosi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polipodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoDiffuso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Insetto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Metamorfosi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProduzioneUova"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Percezione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sostegno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovovivipari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Apodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Ovipari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazioneBranchiale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Branchie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Pesce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProduzioneUova"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polipodi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Quadrupedi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RaffreddamentoDiffuso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAcquatica"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RegolazioneAerea"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazioneBranchiale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Nutrizione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SenzaSangue"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Sanguigno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sperma"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Nutrizione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoDiretto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoGraduale"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Uovo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Bipedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SviluppoGraduale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cervello"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Cuore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Occhio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Stomaco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Utero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#uomo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Copulazione"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Mollusco"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Osso"/>
+    </NegativeObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#AppartieneAsse"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Asse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#CaratterizzatoDa"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Differenza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaFunzione"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#Funzione"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#HaParteOsservata"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ParteCorporea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#SvolgeProcesso"/>
+        <Class IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#ProcessoGenerativo"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
 
