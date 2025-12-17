@@ -1,1 +1,996 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata">
+    <Prefix name="" IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="taf" IRI="http://www.semanticweb.org/TassonomiaAristotelicaFormalizzata"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Declaration>
+        <Class IRI="#Animale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriteriTassonomici"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DatiEmpirici"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Differenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funzione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteCorporea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteNonOmogenea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParteOmogenea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessoGenerativo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HaFunzione"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apodi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_Embriologico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asse_Sanguigno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssenzaOrganiRespiratori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bipedi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Branchie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaldoInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cervello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cervo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cetaceo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConSangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Copulazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corvo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#De_Generatione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#De_Partibus_Animalium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fecondazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FormazioneEmbrione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FreddoInterno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GenerazioneSpontanea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gestazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insetto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metamorfosi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mollusco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Movimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nutrizione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Occhio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Osso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ovipari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ovovivipari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Percezione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pesce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polipodi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polmoni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrincipioVitale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProduzioneUova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quadrupedi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raffreddamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RaffreddamentoAcquatico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RaffreddamentoAereo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RaffreddamentoDiffuso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RegolazioneAcquatica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RegolazioneAerea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Respirazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RespirazioneBranchiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SenzaSangue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sostegno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sperma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stomaco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SviluppoDiretto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SviluppoGraduale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uovo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Utero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#uomo"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animale"/>
+        <Class IRI="#DatiEmpirici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asse"/>
+        <Class IRI="#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Differenza"/>
+        <Class IRI="#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funzione"/>
+        <Class IRI="#CriteriTassonomici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteCorporea"/>
+        <Class IRI="#DatiEmpirici"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteNonOmogenea"/>
+        <Class IRI="#ParteCorporea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParteOmogenea"/>
+        <Class IRI="#ParteCorporea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessoGenerativo"/>
+        <Class IRI="#CriteriTassonomici"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Apodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_Embriologico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asse"/>
+        <NamedIndividual IRI="#Asse_Sanguigno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#AssenzaOrganiRespiratori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Bipedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Branchie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#CaldoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Cervello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Cervo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#ConSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessoGenerativo"/>
+        <NamedIndividual IRI="#Copulazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Corvo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Cuore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessoGenerativo"/>
+        <NamedIndividual IRI="#Fecondazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessoGenerativo"/>
+        <NamedIndividual IRI="#FormazioneEmbrione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#FreddoInterno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#GenerazioneSpontanea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Gestazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Insetto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Metamorfosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Mollusco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Movimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Nutrizione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Occhio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteOmogenea"/>
+        <NamedIndividual IRI="#Osso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Ovipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Ovovivipari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Percezione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Pesce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Polipodi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Polmoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#PrincipioVitale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessoGenerativo"/>
+        <NamedIndividual IRI="#ProduzioneUova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#Quadrupedi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Raffreddamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#RaffreddamentoAcquatico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#RaffreddamentoAereo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#RaffreddamentoDiffuso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#RegolazioneAcquatica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#RegolazioneAerea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Respirazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#RespirazioneBranchiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteOmogenea"/>
+        <NamedIndividual IRI="#Sangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#SenzaSangue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funzione"/>
+        <NamedIndividual IRI="#Sostegno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteOmogenea"/>
+        <NamedIndividual IRI="#Sperma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Stomaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#SviluppoDiretto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#SviluppoGraduale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteOmogenea"/>
+        <NamedIndividual IRI="#Uovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParteNonOmogenea"/>
+        <NamedIndividual IRI="#Utero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Differenza"/>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#uomo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Ali"/>
+        <NamedIndividual IRI="#Movimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Apodi"/>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#AssenzaOrganiRespiratori"/>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Bipedi"/>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Branchie"/>
+        <NamedIndividual IRI="#Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#CaldoInterno"/>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Cervello"/>
+        <NamedIndividual IRI="#Raffreddamento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Quadrupedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Cuore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Occhio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Utero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <NamedIndividual IRI="#Cervo"/>
+        <NamedIndividual IRI="#Copulazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+        <NamedIndividual IRI="#Apodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+        <NamedIndividual IRI="#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Cetaceo"/>
+        <NamedIndividual IRI="#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#ConSangue"/>
+        <NamedIndividual IRI="#Asse_Sanguigno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#Bipedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#Ovipari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#Ali"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Corvo"/>
+        <NamedIndividual IRI="#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Cuore"/>
+        <NamedIndividual IRI="#PrincipioVitale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#FreddoInterno"/>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#GenerazioneSpontanea"/>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Insetto"/>
+        <NamedIndividual IRI="#Metamorfosi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Insetto"/>
+        <NamedIndividual IRI="#Polipodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Insetto"/>
+        <NamedIndividual IRI="#RaffreddamentoDiffuso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Insetto"/>
+        <NamedIndividual IRI="#SenzaSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Metamorfosi"/>
+        <NamedIndividual IRI="#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Mollusco"/>
+        <NamedIndividual IRI="#SenzaSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Mollusco"/>
+        <NamedIndividual IRI="#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <NamedIndividual IRI="#Mollusco"/>
+        <NamedIndividual IRI="#ProduzioneUova"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Occhio"/>
+        <NamedIndividual IRI="#Percezione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Osso"/>
+        <NamedIndividual IRI="#Sostegno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Ovipari"/>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Ovovivipari"/>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#Apodi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#Ovipari"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#RespirazioneBranchiale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#Branchie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#Uovo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <NamedIndividual IRI="#Pesce"/>
+        <NamedIndividual IRI="#ProduzioneUova"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Polipodi"/>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Polmoni"/>
+        <NamedIndividual IRI="#Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#Quadrupedi"/>
+        <NamedIndividual IRI="#Asse_Locomozione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#RaffreddamentoDiffuso"/>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#RegolazioneAcquatica"/>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#RegolazioneAerea"/>
+        <NamedIndividual IRI="#Asse_CaloreInterno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#RespirazioneBranchiale"/>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+        <NamedIndividual IRI="#Asse_Respirazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Sangue"/>
+        <NamedIndividual IRI="#Nutrizione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#SenzaSangue"/>
+        <NamedIndividual IRI="#Asse_Sanguigno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Sperma"/>
+        <NamedIndividual IRI="#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Stomaco"/>
+        <NamedIndividual IRI="#Nutrizione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#SviluppoDiretto"/>
+        <NamedIndividual IRI="#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#SviluppoGraduale"/>
+        <NamedIndividual IRI="#Asse_Embriologico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Uovo"/>
+        <NamedIndividual IRI="#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <NamedIndividual IRI="#Utero"/>
+        <NamedIndividual IRI="#Gestazione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+        <NamedIndividual IRI="#Asse_Riproduttivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Bipedi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#ConSangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#RespirazionePolmonare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#SviluppoGraduale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#VivipariPerfetti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Cervello"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Cuore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Occhio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Polmoni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Sangue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Stomaco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Utero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <NamedIndividual IRI="#uomo"/>
+        <NamedIndividual IRI="#Copulazione"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <NamedIndividual IRI="#Mollusco"/>
+        <NamedIndividual IRI="#Osso"/>
+    </NegativeObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <Class IRI="#Differenza"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <Class IRI="#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <Class IRI="#ParteCorporea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <Class IRI="#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <Class IRI="#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AppartieneAsse"/>
+        <Class IRI="#Asse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CaratterizzatoDa"/>
+        <Class IRI="#Differenza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HaFunzione"/>
+        <Class IRI="#Funzione"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HaParteOsservata"/>
+        <Class IRI="#ParteCorporea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SvolgeProcesso"/>
+        <Class IRI="#ProcessoGenerativo"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cetaceo</IRI>
+        <Literal>Caso limite perchè pur vivendo in un abiente acquatico ha una respirazione polmonare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Funzione</IRI>
+        <Literal>le funzioni non appartengono all&apos;animale ma alle parti</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
 
